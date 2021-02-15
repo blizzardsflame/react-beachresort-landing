@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 // assets
-import logo from "../img/logo-pinkville-hotel-300-64x38.svg";
+import logo from "../img/logo-pinkville-hotel-300.svg";
 import { FaAlignRight } from "react-icons/fa";
 export default class Nav extends Component {
   //State
@@ -18,7 +18,12 @@ export default class Nav extends Component {
         <div className="nav-center">
           <div className="nav-header">
             <Link to="/">
-              <img src={logo} alt="Hotel" />
+              <img
+                src={logo}
+                alt="Pink Ville Hotel"
+                width="20%"
+                height="100%"
+              />
             </Link>
             <button
               type="button"
