@@ -2,6 +2,7 @@
 ## TechStack
 Reactjs
 Contentful headless CMS
+ContextApi
 
 ### Libraries
 react-icons
