@@ -1,4 +1,4 @@
-# Hotel resvervation app with react
+# Hotel Landing Page with react
 ## TechStack
 Reactjs
 Contentful headless CMS
@@ -8,8 +8,3 @@ ContextApi
 react-icons
 react-router-dom
 styled-components
-
-### Package Manager
-Yarn
-
-### Screenshots
