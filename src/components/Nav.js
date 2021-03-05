@@ -21,7 +21,7 @@ export default class Nav extends Component {
               <img
                 src={logo}
                 alt="Pink Ville Hotel"
-                width="20%"
+                width="30%"
                 height="100%"
               />
             </Link>

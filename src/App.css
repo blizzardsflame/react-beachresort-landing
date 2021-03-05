@@ -4,16 +4,18 @@
   box-sizing: border-box;
 }
 :root {
+  --creamColor: #edd2ad;
+  --darkCreamColor: #c0964c;
   --primaryColor: #af9a7d;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainGrey: #ececec;
-  --darkGrey: #cfcfcf;
+  --darkGrey: #dfdfdf;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 3px;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --lightShadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 /* globals */
 body {
@@ -58,16 +60,16 @@ h6 {
   text-decoration: none;
   letter-spacing: var(--mainSpacing);
   color: var(--mainBlack);
-  background: var(--primaryColor);
+  background: var(--darkCreamColor);
   padding: 0.4rem 0.9rem;
-  border: 3px solid var(--primaryColor);
+  border: 3px solid var(--darkCreamColor);
   transition: var(--mainTransition);
   text-transform: uppercase;
   cursor: pointer;
 }
 .btn-primary:hover {
   background: transparent;
-  color: var(--primaryColor);
+  color: var(--darkCreamColor);
 }
 .loading {
   text-transform: capitalize;
@@ -109,7 +111,7 @@ h6 {
 }
 .nav-icon {
   font-size: 1.5rem;
-  color: var(--primaryColor);
+  color: var(--darkCreamColor);
 }
 .nav-links {
   height: 0;
@@ -129,7 +131,7 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
-  color: var(--primaryColor);
+  color: var(--darkCreamColor);
 }
 
 .show-nav {
@@ -150,7 +152,7 @@ h6 {
     margin-left: 4rem;
   }
   .nav-links a {
-    margin: 0 1rem;
+    margin: 0.5rem 1rem 0rem 1rem;
     padding: 0.5rem 0;
   }
 }
@@ -159,7 +161,7 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./img/defaultBcg.jpeg") center/cover no-repeat;
+  background: url("./img/defaultBcg.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -185,7 +187,7 @@ h6 {
 .banner div {
   width: 10rem;
   height: 5px;
-  background: var(--primaryColor);
+  background: var(--darkCreamColor);
   margin: 1.7rem auto;
 }
 .banner p {
@@ -224,7 +226,7 @@ h6 {
   width: 5rem;
   height: 5px;
   margin: 0 auto;
-  background: var(--primaryColor);
+  background: var(--darkCreamColor);
 }
 /* end of Title */
 
@@ -233,7 +235,7 @@ h6 {
   padding: 5rem 0;
 }
 .services {
-  background: var(--darkGrey);
+  background: var(--mainWhite);
   text-align: center;
 }
 .services-center {
@@ -246,7 +248,7 @@ h6 {
 }
 .service span {
   display: inline-block;
-  color: var(--primaryColor);
+  color: var(--darkCreamColor);
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }

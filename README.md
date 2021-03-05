@@ -1,4 +1,5 @@
 # Hotel Landing Page with react
+Demo: reactbeachresort-nr.netlify.app
 ## TechStack
 Reactjs
 Contentful headless CMS
