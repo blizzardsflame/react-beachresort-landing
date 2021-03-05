@@ -7,7 +7,7 @@ import { RoomContext } from "../Context";
 export default class Room extends Component {
   constructor(props) {
     super(props);
-    console.log(this.props);
+
     this.state = {
       slug: this.props.match.params.slug,
       defaultBcg: defaultBcg,
